@@ -43,7 +43,7 @@ maven { url = uri("https://jitpack.io") }
 
 ```gradle
 dependencies {
-	        implementation 'com.github.Excelsior-Technologies-Community:Android_Zoom_Gesture_Image_View:1.0.0'
+	        implementation 'com.github.Excelsior-Technologies-Community:Android_FaceDetector:1.0.0'
 
 }
 ```
