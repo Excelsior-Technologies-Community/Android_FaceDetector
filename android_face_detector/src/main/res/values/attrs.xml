@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- FaceDetectorView Custom Attributes -->
+    <declare-styleable name="FaceDetectorView">
+
+        <!-- Show/Hide bounding box around detected faces -->
+        <attr name="showBoundingBox" format="boolean" />
+
+        <!-- Show/Hide facial landmarks (eyes, nose, mouth) -->
+        <attr name="showFaceLandmarks" format="boolean" />
+
+        <!-- Show/Hide face contours (detailed face outline) -->
+        <attr name="showFaceContours" format="boolean" />
+
+        <!-- Bounding box color -->
+        <attr name="boundingBoxColor" format="color" />
+
+        <!-- Bounding box stroke width -->
+        <attr name="boundingBoxWidth" format="dimension" />
+
+        <!-- Landmark color -->
+        <attr name="landmarkColor" format="color" />
+
+        <!-- Landmark circle radius -->
+        <attr name="landmarkRadius" format="dimension" />
+
+        <!-- Contour line color -->
+        <attr name="contourColor" format="color" />
+
+        <!-- Contour line width -->
+        <attr name="contourWidth" format="dimension" />
+
+        <!-- Enable face tracking across frames -->
+        <attr name="enableTracking" format="boolean" />
+
+        <!-- Detection mode: fast(1) or accurate(2) -->
+        <attr name="detectionMode" format="enum">
+            <enum name="fast" value="1" />
+            <enum name="accurate" value="2" />
+        </attr>
+
+        <!-- Minimum face size to detect (0.0 to 1.0) -->
+        <attr name="minFaceSize" format="float" />
+
+    </declare-styleable>
+</resources>
